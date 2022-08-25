@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHREYAN MITTAL</title>
+</head>
+
+<body style="background-color: rgb(42, 116, 219);">
+    <center>
+        <h1 style="margin-top: 25px; margin-bottom: 50px;">Practical-3(b)</h1>
+        <p style="font-size: 22px;">Follow the steps to view the output.</p>
+        <p style="font-size: 22px;">Step-1: Right Click</p>
+        <p style="font-size: 22px;">Step-2: Select Inspect</p>
+        <p style="font-size: 22px;">Step3: Go to Console to view the output.</p>
+    
+    </center>
+
+    <script>
+        class Student {
+            constructor(rollno, first_name, last_name) {
+                this.rollno = rollno;
+                this.first_name = first_name;
+                this.last_name = last_name;
+            }
+
+            setFullName(f_name, l_name) {
+                this.first_name = f_name;
+                this.last_name = l_name;
+            }
+
+            printFullName() {
+                console.log(this.first_name + " " + s1.last_name);
+            }
+        }
+
+        var s1 = new Student('20CS037', 'Shreyan', 'Mittal')
+        s1.printFullName();
+
+        s1.setFullName('Aman', 'Patel');
+        s1.printFullName();
+    </script>
+</body>
+
+</html>

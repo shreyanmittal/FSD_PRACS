@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prac3(a).css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="cont">
+        <p id="temp1">Hello</p>
+        <p id="temp2">Hii</p>
+        <button onclick="setColor();setColor2()">Change</button>
+    </div>
+
+
+<script>
+
+function setColor() {
+    myInterval = setInterval(setColor, 1000);
+  var  x = document.getElementById("temp1");
+   x.style.color = x.style.color == "red" ? "black" : "red";
+}
+function setColor2() {
+    myInterval = setInterval(setColor2, 1000);
+  let x = document.getElementById("temp2");
+   x.style.color = x.style.color == "red" ? "black" : "red";
+} 
+
+</script>
+
+</body>
+</html>
